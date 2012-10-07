@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.rcaloras.roo.addon.timestamp</groupId>
+  <artifactId>com.rcaloras.roo.addon.timestamp</artifactId>
+  <versioning>
+    <versions>
+      <version>0.1.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20121007211709</lastUpdated>
+  </versioning>
+</metadata>
