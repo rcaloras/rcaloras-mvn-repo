@@ -11,8 +11,9 @@
       <p n='symbolicname' v='Untitled-715541877'/>
       <p n='version' t='version' v='0.0.0'/>
     </capability>
-  </resource>
-  <resource id='com.rcaloras.roo.addon.timestamp/0.1.0' presentationname='Spring Roo Timestamp Addon' symbolicname='com.rcaloras.roo.addon.timestamp' uri='com/rcaloras/roo/addon/timestamp/com.rcaloras.roo.addon.timestamp/0.1.0/com.rcaloras.roo.addon.timestamp-0.1.0.jar' version='0.1.0'>
+</resource>
+
+<resource id='com.rcaloras.roo.addon.timestamp/0.1.0' presentationname='Spring Roo Timestamp Addon' symbolicname='com.rcaloras.roo.addon.timestamp' uri='httppgp://github.com/rcaloras/rcaloras-mvn-repo/raw/master/releases/com/rcaloras/roo/addon/timestamp/com.rcaloras.roo.addon.timestamp/0.1.0/com.rcaloras.roo.addon.timestamp-0.1.0.jar' version='0.1.0'>
     <description>
       Adds 'created' and 'updated' timestamps to all entites marked
        with @RooTimestamp
@@ -81,7 +82,7 @@
       Import package org.w3c.dom
     </require>
   </resource>
-  <resource id='com.rcaloras.roo.addon.timestamp/0.1.1' presentationname='Spring Roo Timestamp Addon' symbolicname='com.rcaloras.roo.addon.timestamp' uri='com/rcaloras/roo/addon/timestamp/com.rcaloras.roo.addon.timestamp/0.1.1/com.rcaloras.roo.addon.timestamp-0.1.1.jar' version='0.1.1'>
+  <resource id='com.rcaloras.roo.addon.timestamp/0.1.1' presentationname='Spring Roo Timestamp Addon' symbolicname='com.rcaloras.roo.addon.timestamp' uri='httppgp://github.com/rcaloras/rcaloras-mvn-repo/raw/master/releases/com/rcaloras/roo/addon/timestamp/com.rcaloras.roo.addon.timestamp/0.1.1/com.rcaloras.roo.addon.timestamp-0.1.1.jar' version='0.1.1'>
     <description>
       Adds 'created' and 'updated' timestamps to all entites marked
        with @RooTimestamp
