@@ -1,4 +1,153 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20121007172919.596' name='Untitled'/>
+<repository lastmodified='20121023174946.584' name='Untitled'>
+  <resource id='Untitled-715541877/0.0.0' symbolicname='Untitled-715541877' uri='com/chj/gwt-soundmanager2/0.1.1/gwt-soundmanager2-0.1.1-sources.jar' version='0.0.0'>
+    <size>
+      162311
+    </size>
+    <capability name='bundle'>
+      <p n='manifestversion' v='1'/>
+      <p n='symbolicname' v='Untitled-715541877'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+  </resource>
+  <resource id='com.rcaloras.roo.addon.timestamp/0.1.0' presentationname='Spring Roo Timestamp Addon' symbolicname='com.rcaloras.roo.addon.timestamp' uri='com/rcaloras/roo/addon/timestamp/com.rcaloras.roo.addon.timestamp/0.1.0/com.rcaloras.roo.addon.timestamp-0.1.0.jar' version='0.1.0'>
+    <description>
+      Adds 'created' and 'updated' timestamps to all entites marked
+       with @RooTimestamp
+    </description>
+    <size>
+      16324
+    </size>
+    <license>
+      http://www.gnu.org/copyleft/gpl.html
+    </license>
+    <documentation>
+      https://github.com/rcaloras/spring-roo-addon-timestamp
+    </documentation>
+    <copyright>
+      Copyright Ryan Caloras. All Rights Reserved.
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Spring Roo Timestamp Addon'/>
+      <p n='symbolicname' v='com.rcaloras.roo.addon.timestamp'/>
+      <p n='version' t='version' v='0.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.rcaloras.roo.addon.timestamp'/>
+      <p n='uses' v='org.springframework.roo.model,org.springframework.roo.shell,org.apache.commons.lang3,org.springframework.roo.classpath.details,org.apache.commons.lang3.builder,org.springframework.roo.classpath.details.annotations,org.springframework.roo.classpath.itd,org.springframework.roo.project,org.springframework.roo.metadata,org.springframework.roo.classpath,org.osgi.service.component,org.springframework.roo.support.util,org.w3c.dom'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.lang3)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.lang3 ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.lang3.builder)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.lang3.builder ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.component)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.component ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.classpath)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.classpath ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.classpath.details)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.classpath.details ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.classpath.details.annotations)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.classpath.details.annotations
+       ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.classpath.itd)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.classpath.itd ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.metadata)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.metadata ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.model)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.model ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.project)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.project ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.shell)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.shell ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.support.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.support.util ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.w3c.dom
+    </require>
+  </resource>
+  <resource id='com.rcaloras.roo.addon.timestamp/0.1.1' presentationname='Spring Roo Timestamp Addon' symbolicname='com.rcaloras.roo.addon.timestamp' uri='com/rcaloras/roo/addon/timestamp/com.rcaloras.roo.addon.timestamp/0.1.1/com.rcaloras.roo.addon.timestamp-0.1.1.jar' version='0.1.1'>
+    <description>
+      Adds 'created' and 'updated' timestamps to all entites marked
+       with @RooTimestamp
+    </description>
+    <size>
+      18260
+    </size>
+    <license>
+      http://www.gnu.org/copyleft/gpl.html
+    </license>
+    <documentation>
+      https://github.com/rcaloras/spring-roo-addon-timestamp
+    </documentation>
+    <copyright>
+      Copyright Ryan Caloras. All Rights Reserved.
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Spring Roo Timestamp Addon'/>
+      <p n='symbolicname' v='com.rcaloras.roo.addon.timestamp'/>
+      <p n='version' t='version' v='0.1.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.rcaloras.roo.addon.timestamp'/>
+      <p n='uses' v='org.springframework.roo.model,org.springframework.roo.shell,org.springframework.roo.classpath.itd,org.springframework.roo.classpath.details.annotations,org.springframework.roo.project,org.springframework.roo.metadata,org.springframework.roo.classpath,org.apache.commons.lang3,org.springframework.roo.classpath.details,org.apache.commons.lang3.builder,org.osgi.service.component,org.springframework.roo.support.util,org.w3c.dom'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.lang3)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.lang3 ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.lang3.builder)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.lang3.builder ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.component)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.component ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.classpath)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.classpath ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.classpath.details)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.classpath.details ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.classpath.details.annotations)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.classpath.details.annotations
+       ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.classpath.itd)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.classpath.itd ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.metadata)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.metadata ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.model)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.model ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.project)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.project ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.shell)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.shell ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.roo.support.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.roo.support.util ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.w3c.dom
+    </require>
+  </resource>
+</repository>
