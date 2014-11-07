@@ -1,4 +1,4 @@
-<repository name='Untitled' lastmodified='20141102110013.358'>
+<repository name='Untitled' lastmodified='20141107014537.603'>
   <resource id='Untitled-715541877/0.0.0' symbolicname='Untitled-715541877' uri='com/chj/gwt-soundmanager2/0.1.2-SNAPSHOT/gwt-soundmanager2-0.1.2-20120820.044821-1.jar' version='0.0.0'>
     <size>175659</size>
     <capability name='bundle'>
@@ -73,7 +73,7 @@
   </resource>
   <resource id='com.rcaloras.roo.addon.timestamp/0.1.3.SNAPSHOT' symbolicname='com.rcaloras.roo.addon.timestamp' presentationname='Spring Roo Timestamp Addon' uri='httppgp://github.com/rcaloras/rcaloras-mvn-repo/releases/com/rcaloras/addon/timestamp/com.rcaloras.roo.addon.timestamp/0.1.3-SNAPSHOT/com.rcaloras.roo.addon.timestamp-0.1.3-SNAPSHOT.jar' version='0.1.3.SNAPSHOT'>
     <description>Adds &apos;created&apos; and &apos;updated&apos; timestamps to all entites marked with @RooTimestamp</description>
-    <size>19095</size>
+    <size>18943</size>
     <documentation>https://github.com/rcaloras/spring-roo-addon-timestamp</documentation>
     <license>http://www.gnu.org/copyleft/gpl.html</license>
     <capability name='bundle'>
